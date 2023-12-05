@@ -1,0 +1,15 @@
+{# templates/product/show_variants.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Variants du Produit{% endblock %}
+
+{% block body %}
+    <h1>Variants du Produit</h1>
+
+    <ul>
+        {% for variant in variants %}
+            <li>{{ variant.id }} - {{ variant.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

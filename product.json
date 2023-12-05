@@ -1,0 +1,244 @@
+{
+    "@context": "/api/v2/contexts/Product",
+    "@id": "/api/v2/shop/products",
+    "@type": "hydra:Collection",
+    "hydra:member": [
+      {
+        "@id": "/api/v2/shop/products/000F_office_grey_jeans",
+        "@type": "Product",
+        "productTaxons": [
+          {
+            "@id": "/api/v2/shop/product-taxons/36",
+            "@type": "ProductTaxon",
+            "id": 36,
+            "taxon": {
+              "@id": "/api/v2/shop/taxons/jeans",
+              "@type": "Taxon",
+              "id": 9,
+              "code": "jeans",
+              "children": [
+                "/api/v2/shop/taxons/mens_jeans",
+                "/api/v2/shop/taxons/womens_jeans"
+              ],
+              "translations": {
+                "de_DE": "/api/v2/shop/taxon-translations/66",
+                "en_US": "/api/v2/shop/taxon-translations/65",
+                "es_ES": "/api/v2/shop/taxon-translations/69",
+                "es_MX": "/api/v2/shop/taxon-translations/70",
+                "fr_FR": "/api/v2/shop/taxon-translations/67",
+                "pl_PL": "/api/v2/shop/taxon-translations/68",
+                "pt_PT": "/api/v2/shop/taxon-translations/71",
+                "zh_CN": "/api/v2/shop/taxon-translations/72"
+              },
+              "name": "Jeans",
+              "slug": "categorie/jeans",
+              "description": "Quod reprehenderit ab aspernatur corporis dolorem dolore. Reprehenderit necessitatibus sed ducimus consequuntur vitae neque nihil ut. Placeat veniam accusantium dolor quis id dolorum aliquam vel."
+            }
+          },
+          {
+            "@id": "/api/v2/shop/product-taxons/37",
+            "@type": "ProductTaxon",
+            "id": 37,
+            "taxon": {
+              "@id": "/api/v2/shop/taxons/womens_jeans",
+              "@type": "Taxon",
+              "id": 11,
+              "code": "womens_jeans",
+              "children": [],
+              "translations": {
+                "de_DE": "/api/v2/shop/taxon-translations/82",
+                "en_US": "/api/v2/shop/taxon-translations/81",
+                "es_ES": "/api/v2/shop/taxon-translations/85",
+                "es_MX": "/api/v2/shop/taxon-translations/86",
+                "fr_FR": "/api/v2/shop/taxon-translations/83",
+                "pl_PL": "/api/v2/shop/taxon-translations/84",
+                "pt_PT": "/api/v2/shop/taxon-translations/87",
+                "zh_CN": "/api/v2/shop/taxon-translations/88"
+              },
+              "name": "Femmes",
+              "slug": "jeans/femmes",
+              "description": "Occaecati omnis esse aut. Dignissimos perferendis non eius illum et. Velit facilis fugit id totam eveniet. Laborum ut sed ad ducimus error aut."
+            }
+          }
+        ],
+        "mainTaxon": {
+          "@id": "/api/v2/shop/taxons/womens_jeans",
+          "@type": "Taxon",
+          "id": 11,
+          "code": "womens_jeans",
+          "children": [],
+          "translations": {
+            "de_DE": "/api/v2/shop/taxon-translations/82",
+            "en_US": "/api/v2/shop/taxon-translations/81",
+            "es_ES": "/api/v2/shop/taxon-translations/85",
+            "es_MX": "/api/v2/shop/taxon-translations/86",
+            "fr_FR": "/api/v2/shop/taxon-translations/83",
+            "pl_PL": "/api/v2/shop/taxon-translations/84",
+            "pt_PT": "/api/v2/shop/taxon-translations/87",
+            "zh_CN": "/api/v2/shop/taxon-translations/88"
+          },
+          "name": "Femmes",
+          "slug": "jeans/femmes",
+          "description": "Occaecati omnis esse aut. Dignissimos perferendis non eius illum et. Velit facilis fugit id totam eveniet. Laborum ut sed ad ducimus error aut."
+        },
+        "reviews": [
+          "/api/v2/shop/product-reviews/1",
+          "/api/v2/shop/product-reviews/41"
+        ],
+        "averageRating": 3.5,
+        "images": [
+          {
+            "@id": "/api/v2/shop/product-images/20",
+            "@type": "ProductImage",
+            "id": 20,
+            "type": "main",
+            "path": "/media/image/61/60/79b883d08b121afdb7347d40487a.jpg"
+          }
+        ],
+        "id": 20,
+        "code": "000F_office_grey_jeans",
+        "variants": [
+          "/api/v2/shop/product-variants/000F_office_grey_jeans-variant-0",
+          "/api/v2/shop/product-variants/000F_office_grey_jeans-variant-1",
+          "/api/v2/shop/product-variants/000F_office_grey_jeans-variant-2",
+          "/api/v2/shop/product-variants/000F_office_grey_jeans-variant-3",
+          "/api/v2/shop/product-variants/000F_office_grey_jeans-variant-4"
+        ],
+        "options": [
+          {
+            "@id": "/api/v2/shop/product-options/jeans_size",
+            "@type": "ProductOption",
+            "id": 4,
+            "code": "jeans_size",
+            "values": [
+              {
+                "@id": "/api/v2/shop/product-option-values/jeans_size_s",
+                "@type": "ProductOptionValue",
+                "id": 14,
+                "code": "jeans_size_s",
+                "value": "S"
+              },
+              {
+                "@id": "/api/v2/shop/product-option-values/jeans_size_m",
+                "@type": "ProductOptionValue",
+                "id": 15,
+                "code": "jeans_size_m",
+                "value": "M"
+              },
+              {
+                "@id": "/api/v2/shop/product-option-values/jeans_size_l",
+                "@type": "ProductOptionValue",
+                "id": 16,
+                "code": "jeans_size_l",
+                "value": "L"
+              },
+              {
+                "@id": "/api/v2/shop/product-option-values/jeans_size_xl",
+                "@type": "ProductOptionValue",
+                "id": 17,
+                "code": "jeans_size_xl",
+                "value": "XL"
+              },
+              {
+                "@id": "/api/v2/shop/product-option-values/jeans_size_xxl",
+                "@type": "ProductOptionValue",
+                "id": 18,
+                "code": "jeans_size_xxl",
+                "value": "XXL"
+              }
+            ],
+            "createdAt": "2023-11-21 13:29:33",
+            "updatedAt": "2023-11-21 13:29:33",
+            "translations": {
+              "de_DE": "/api/v2/admin/product-option-translations/26",
+              "en_US": "/api/v2/admin/product-option-translations/25",
+              "es_ES": "/api/v2/admin/product-option-translations/29",
+              "es_MX": "/api/v2/admin/product-option-translations/30",
+              "fr_FR": "/api/v2/admin/product-option-translations/27",
+              "pl_PL": "/api/v2/admin/product-option-translations/28",
+              "pt_PT": "/api/v2/admin/product-option-translations/31",
+              "zh_CN": "/api/v2/admin/product-option-translations/32"
+            },
+            "name": "Jeans size"
+          }
+        ],
+        "associations": [],
+        "createdAt": "2023-11-18 00:55:56",
+        "updatedAt": "2023-11-22 10:19:05",
+        "shortDescription": "Adipisci aperiam blanditiis magnam eius. Eveniet totam laborum ratione voluptatem quia eos. Autem voluptates rerum autem repellendus necessitatibus inventore.",
+        "name": "000F office grey jeans",
+        "description": "Voluptatem nobis aut voluptate. Exercitationem ratione reiciendis sint voluptatem. Sed dolores aut et quod quae nemo repudiandae soluta. Voluptas ea iste accusamus. Accusantium facilis voluptatum perferendis.\n\nEligendi ut facilis consequatur eaque iusto sit. Ratione quae nihil aperiam qui repellat beatae nam. Eos consequuntur ut aspernatur rem sapiente.\n\nVero inventore et quisquam et animi odit quibusdam. Ea dolor aut perspiciatis. Cum sit eum veniam cupiditate incidunt libero illo ut. Ut assumenda enim enim consequatur rem quibusdam in.",
+        "slug": "000f-office-grey-jeans",
+        "defaultVariant": "/api/v2/shop/product-variants/000F_office_grey_jeans-variant-0"
+      }
+    ],
+    "hydra:totalItems": 22,
+    "hydra:view": {
+      "@id": "/api/v2/shop/products?itemsPerPage=1&page=1",
+      "@type": "hydra:PartialCollectionView",
+      "hydra:first": "/api/v2/shop/products?itemsPerPage=1&page=1",
+      "hydra:last": "/api/v2/shop/products?itemsPerPage=1&page=22",
+      "hydra:next": "/api/v2/shop/products?itemsPerPage=1&page=2"
+    },
+    "hydra:search": {
+      "@type": "hydra:IriTemplate",
+      "hydra:template": "/api/v2/shop/products{?translations.name,order[code],order[createdAt],productTaxons.taxon.code,productTaxons.taxon.code[],order[price],order[translation.name],localeCode for order[translation.name],taxon}",
+      "hydra:variableRepresentation": "BasicRepresentation",
+      "hydra:mapping": [
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "translations.name",
+          "property": "translations.name",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "order[code]",
+          "property": "code",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "order[createdAt]",
+          "property": "createdAt",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "productTaxons.taxon.code",
+          "property": "productTaxons.taxon.code",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "productTaxons.taxon.code[]",
+          "property": "productTaxons.taxon.code",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "order[price]",
+          "property": "price",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "order[translation.name]",
+          "property": "translation",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "localeCode for order[translation.name]",
+          "property": "localeCode",
+          "required": false
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "taxon",
+          "property": null,
+          "required": false
+        }
+      ]
+    }
+  }
