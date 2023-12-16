@@ -24,6 +24,7 @@
     "require": {
         "php": "^8.0",
         "doctrine/annotations": "^2.0",
+        "monsieurbiz/sylius-cms-page-plugin": "^1.0",
         "nelmio/cors-bundle": "^2.4",
         "odiseoteam/sylius-banner-plugin": "^1.3",
         "sensio/framework-extra-bundle": "^6.2",

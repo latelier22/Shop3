@@ -7,6 +7,7 @@ namespace App\Entity\Taxonomy;
 use Doctrine\ORM\Mapping as ORM;
 use Sylius\Component\Core\Model\Taxon as BaseTaxon;
 use Sylius\Component\Taxonomy\Model\TaxonTranslationInterface;
+use Sylius\Component\Resource\Model\TimestampableTrait;
 
 /**
  * @ORM\Entity
@@ -16,8 +17,21 @@ use Sylius\Component\Taxonomy\Model\TaxonTranslationInterface;
 #[ORM\Table(name: 'sylius_taxon')]
 class Taxon extends BaseTaxon
 {
+    use TimestampableTrait;
+
+
     protected function createTranslation(): TaxonTranslationInterface
     {
         return new TaxonTranslation();
     }
+
+    /**
+     * @var DateTimeInterface|null
+     */
+    protected $updatedAt;
+
+    // ...
+
+
+
 }
