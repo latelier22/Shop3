@@ -1,0 +1,22 @@
+sylius_grid:
+    grids:
+        app_admin_page:
+            driver:
+                name: doctrine/orm
+                options:
+                    class: App\Entity\Page
+            fields:
+                
+                slug:
+                    type: string
+                content:
+                    type: string
+            actions:
+                main:
+                    create:
+                        type: create
+                item:
+                    update:
+                        type: update
+                    delete:
+                        type: delete

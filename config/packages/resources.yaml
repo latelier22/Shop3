@@ -1,0 +1,5 @@
+sylius_resource:
+    resources:
+        app.page:
+            classes:
+                model: App\Entity\Page

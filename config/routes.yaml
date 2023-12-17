@@ -11,3 +11,17 @@ odiseo_sylius_banner_plugin_shop:
     requirements:
         _locale: ^[A-Za-z]{2,4}(_([A-Za-z]{4}|[0-9]{3}))?(_([A-Za-z]{2}|[0-9]{3}))?$
 
+app_page:
+    resource: |
+        alias: app.page
+        section: admin
+        templates: "@SyliusAdmin\\Crud"
+        grid: app_admin_page
+        redirect: index
+    type: sylius.resource
+    prefix: admin
+
+app_page_public:
+    path: /page/{slug}
+    controller: App\Controller\PageController::index
+
