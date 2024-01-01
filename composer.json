@@ -66,7 +66,7 @@
         "symfony/debug-bundle": "^5.4 || ^6.0",
         "symfony/intl": "^5.4 || ^6.0",
         "symfony/maker-bundle": "^1.51",
-        "symfony/web-profiler-bundle": "^5.4 || ^6.0"
+        "symfony/web-profiler-bundle": "^7.0.2"
     },
     "conflict": {
         "symfony/framework-bundle": "6.2.8"
